@@ -4,13 +4,13 @@ Installation and Setup
 --------------------------------
 This project requires the following packages and dependencies:
 
-*Python 3.6 or higher
-*TensorFlow 2.x or higher
-*NumPy
-*NLTK
-*Flask
-*Flask-SocketIO
-*JSON
+1. Python 3.6 or higher
+2. TensorFlow 2.x or higher
+3. NumPy
+4. NLTK
+5. Flask
+6. Flask-SocketIO
+7. JSON
 To install these packages, you can use pip:
 
 ```pip install tensorflow numpy nltk flask flask-socketio json```
