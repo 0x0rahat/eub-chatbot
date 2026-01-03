@@ -20,11 +20,12 @@
       "patterns": [
         "How can i join Eub",
         "Joining Eub for the first time",
-        "joining Eub"
+        "joining Eub",
+        "How can i admision here"
       ],
       "responses": [
-        " 1.Download admission letter:\nTo download your admission letter kindly fill out the online bio-data form CLICK HERE\n\n 2.Download admission requirements:\nTo download other admission requirements CLICK HERE\n\n 3.Fee structure: To access the government sponsored fee structure CLICK HERE\n 4.Hostel and accommodation: To view our hostel and accommodation rates CLICK HERE \n 5.Course transfer: If you wish to transfer to another course CLICK HERE to download the course transfer form. NB: Course transfer is only applicable once one is admitted to the University and meets the required cluster points.\n 6.Defer studies: In case you wish to defer your studies to next semester CLICK HERE to download deferral form. Fill the form and email it to admissions@eub.edu.bd\nStudent list: \n7.To view the list of EUB 2025/2026 students placed in European University CLICK HERE"
-      ]
+        "Fill out the online bio-data form <a href='https://eub.edu.bd/online-admission'>Click Here</a><br> Submit the form for more details please visit <a href='https://eub.edu.bd/admission-information' target='_blank'>Admission Info</a>"
+]
     },
     {
       "tag": "goodbye",
@@ -53,8 +54,9 @@
         "At what time are you available"
       ],
       "responses": [
-        "We're open every day 8am-5pm",
-        "Our hours are 8am-5pm every day"
+        "We are open daily from 9:00 AM to 9:00 PM, except on Mondays",
+        "Our hours are 9am-9pm every day",
+        "Tuesday – Sunday: 9:00 AM – 9:00 PM, Monday: Closed"
       ]
     },
     {
@@ -62,11 +64,14 @@
       "patterns": [
         "Do you take credit cards?",
         "Do you accept Mastercard?",
-        "Can I pay with M-pesa",
+        "Can I pay with dutch bangla",
+        "Can I pay with Nagad",
         "Are you cash only?"
       ],
       "responses": [
-        "We accept only bank deposits and Cash only"
+        "We accept only Bkash Payment and Cash only",
+        "We accept bKash for all online transactions and Cash for on-site payments.",
+        "Accepted Payment Methods: bKash (Online) and Cash (In-person)."
       ]
     },
     {
@@ -85,8 +90,9 @@
       "tag": "Yes",
       "patterns": [
         "Do you offer engineering",
-        "Do you offer business",
-        "Do you have finance",
+        "Do you offer Business Administration and Economics",
+        "Do you have Arts and Social Sciences",
+        "Do you offer Sciences",
         "Do you have clubs",
         "Are you a Chatbot/chatbox/Virtual assistant"
       ],
@@ -112,7 +118,7 @@
            "what programs do you offer?"
          ],
          "responses": [
-           "Kabarak University offers Diploma, Bachelor's, Master's and Doctorate programs. Which program are you interested in?"]
+           "European University of Bangladesh offers Bachelor's And Master's  programs. Which program are you interested in?"]
         },
         {"tag": "Suggestion",
          "patterns": [
@@ -123,7 +129,7 @@
            "which major/course is best?",
            "which is the best course"
          ],
-         "responses": ["To know which of our majors/courses we think would be suited to you, you can visit the school links to learn more"]
+         "responses": ["To know which of our majors/courses we think would be suited to you, you can visit the University links to learn more <a href='https://eub.edu.bd' target='_blank'>Click Here</a>"]
         },
 
     {
@@ -136,13 +142,13 @@
         "Tell me about your bachelor's",
         "Tell me about your undergraduate"
       ],
-      "responses": ["Kabarak University offers a variety of bachelor degree courses and majors.\nYou can learn more at: https://kabarak.ac.ke/courses/ \nThe courses we offer are:\n\n1)Business and Management\n2)Engineering and Information Sciences\n3)Finance and Accounting\n4)Humanities, Social Sciences and Health\n\nWhat are you interested in?"],
+      "responses": ["European University offers a variety of bachelor degree courses and majors.<br> You can learn more at:<a href='https://eub.edu.bd' target='_blank'>Click Here</a> <br>The courses we offer are:<br>1)Business and Management<br>2)Engineering and Information Sciences<br>3)Science <br>4)Humanities, Social Sciences<br>What are you interested in?"],
       "context": ["interest"]
     },
     {
       "tag": "engineering",
       "patterns": ["Engineering", "2", "Engineering and information sciences"],
-      "responses": ["A degree from the Faculty of Engineering and Information Sciences will develop your\npractical skills to help you embrace innovation and to shape the world around us.\nWe offer a variety of programs in this field:\n\n1)Computer science\n2)Electrical Engineering\n3)Mechanical Engineering\n4)Civil\n\nWhich of these are you interested in?"],
+      "responses": ["A degree from the Faculty of Engineering and Information Sciences will develop your<br>practical skills to help you embrace innovation and to shape the world around us.<br>We offer a variety of programs in this field:<br>1)Computer science<br>2)Electrical Engineering<br>3)Mechanical Engineering<br>4)Civil<br>Which of these are you interested in?"],
       "context": ["interest"]
     },
     {
@@ -181,7 +187,7 @@
         "Make a payment",
         "I want to pay"
       ],
-      "responses": ["For more information on fees, payments plans or any financial enquiries, you can email: admissions@kabarak.ac.ke\n BANK PAYMENTS\n\nNote: Indicate Applicants Name as reference No. on the deposit slip\n\nKENYA COMMERCIAL BANK (KCB),\nBranch: Nakuru\nAccount Name: Kabarak University\nAccount No: 01109663161\nSwift Code: KCBLKENX\nBank Code: 01\nBranch Code: 103\nPayment can either be done through Mpesa Paybill or deposit in Bank\n\nMPESA Paybill\nBusiness No 511480\nAccount Name : Applicants Name\n\nNOTE:\nIndicate the Mpesa Code on top of the application form or forward via email to admissions@kabarak.ac.ke and Copy: studentfinance@kabarak.ac.ke"],
+      "responses": ["For more information on fees, payments plans or any financial enquiries, you can email: admissions@eub.edu.bd"],
       "context": [""]
     },
     {
@@ -406,7 +412,7 @@
         "what can i play"
       ],
       "responses": [
-        "we offer both outdoor sporting activities and indoor activities i.e Badminton, Tennis, Hockey, Basketball, Football, Chess, Volleyball"
+        "we offer both outdoor sporting activities and indoor activities i.e Badminton, Table Tennis, Ceram, Cricket, Football, Chess, Ludu"
       ]
     },
     {
@@ -415,7 +421,7 @@
         "Are there any tech groups One can join", "Tech groups one can join"
       ],
       "responses": [
-        "Yes, One can join DSC kabarak group which offers AI & Data science, Android development, Web development, IOT, Game development with Unity and Cloud development"
+        "Yes, One can join CSE EUB group which offers AI & Data science, Android development, Web development, IOT, Game development with Unity and Cloud development"
       ]
     },
     {
@@ -424,15 +430,15 @@
         "what is your name?",
         "what should I call you?"
       ],
-      "responses": ["I'm kabarak's virtual assistant","Hey!, I'm kabarak's virtual assistant"]
+      "responses": ["I'm Smart EUB virtual assistant","Hey!, I'm EUB's virtual assistant"]
     },
     {
       "tag": "population",
       "patterns": [
-        "what is the population of Kabarak University?",
-        "How many students are currently enrolled at Kabarak University?",
-        "Number of students at Kabarak University",
-        "what is the capacity of kabarak"
+        "what is the population of European University Of Bangladesh?",
+        "How many students are currently enrolled at European University?",
+        "Number of students at European University",
+        "what is the capacity of EUB"
       ],
       "responses": ["9,000 students are currently enrolled","approximately 9,000 students"]
     },
@@ -443,11 +449,11 @@
       "context": [""]
     },
     {
-      "tag": "NonChristians",
+      "tag": "NonMuslim",
       "patterns": [
-        "Does Kabarak University admit non-Christians?",
-        "does kabarak admit Muslims/Hindus",
-        "does kabarak university admit other religions and tribes"],
+        "Does European University admit non-muslim?",
+        "does European admit Muslims/Hindus",
+        "does European university admit other religions and tribes"],
       "responses": ["Yes,we do"]
     },
     {
@@ -460,13 +466,13 @@
         "when can i report"
       ],
       "responses": [
-        "Follow this link https://www.kabarak.ac.ke/downloads/academic_calendar_september_semester_2021.pdf to see the academic calendar. Continuing students return on the day classes begin , new students report a week in advance for freshmen orientation"
+        "Follow this link <a href='https://eub.edu.bd/academic-calendar' target='_blank'>Click Here</a> to see the academic calendar. Continuing students return on the day classes begin , new students report a week in advance for freshmen orientation"
       ]
     },
     {
       "tag": "CourseTransfer",
-      "patterns": ["Can i change my course after being admitted at Kabarak","How can i transfer to another course"],
-      "responses": ["If you wish to transfer to another course visit https://kabarak.ac.ke/downloads/course_transfer_form.pdf to download the course transfer form. NB: Course transfer is only applicable once one is admitted to the University and meets the required cluster points."]
+      "patterns": ["Can i change my course after being admitted at Eub","How can i transfer to another course"],
+      "responses": ["If you wish to transfer to another course <a href='https://eub.edu.bd'>Visit</a> to download the course transfer form. NB: Course transfer is only applicable once one is admitted to the University and meets the required cluster points."]
     },
     {
       "tag": "CareerMentors",
@@ -477,23 +483,23 @@
     {
       "tag": "CreditTransfer",
       "patterns": ["Do you allow credit transfer/exemptions for students with higher diplomas or another degree?"],
-      "responses": ["The Commission for University Education discontinued exemptions. However, students who have done certain courses and performed well can apply to their HODs to challenge the courses at a fee. This is only allowable for First Year and Second Year courses. Exemptions or credit transfers are given for courses done within the same programme e.g. degree to degree, Diploma to Diploma and not lower to higher. The student will be required to fill the credit transfer form available at the Registrar’s Office attaching a transcript and course syllabus from the institution where he/she studied."],
+      "responses": ["The student will be required to fill the credit transfer form available at the Registrar’s Office attaching a transcript and course syllabus from the institution where he/she studied.more info <a href='https://eub.edu.bd/credit-transfer' target='_blank'>Visit Here</a>"],
       "context": [""]
     },
     {
       "tag": "AdmissionNumber",
       "patterns": ["How do I get my admission number?"],
-      "responses": ["Your Admission number is in your admission letter. For any enquiry please contact admissions@kabarak.ac.ke"]
+      "responses": ["Your Admission number is in your admission letter. For any enquiry please contact admissions@eub.edu.bd"]
     },
     {
       "tag": "CourseLimit",
       "patterns": ["Is there a limit to the number of units/ courses I should register in a semester"],
-      "responses": ["Undergraduate students are allowed to register for a maximum of 12 credit hours per semester.\nExemplary performers with GPA of 3.40 or above can take a maximum of 15 hours per semester.\nPostgraduates take a maximum of 12 credit hours per semester."]
+      "responses": ["Undergraduate students are allowed to register for a maximum of 12 credit hours per semester.<br>Exemplary performers with GPA of 3.40 or above can take a maximum of 15 hours per semester.<br>Postgraduates take a maximum of 12 credit hours per semester."]
     },
     {
       "tag": "PerformanceMonitor",
       "patterns": ["How do I monitor my performance?","how do i check for the results"],
-      "responses": ["Once the University Senate has approved semester grades, the Student Portal is opened for students to access grades.\n\nPostgraduate students must maintain a minimum CUM GPA of 3.00 throughout the student program. He/she must have achieved a final minimum GPA of 3.00 in order to begin thesis/dissertation, and graduate.\n\nAll degree and diploma students must maintain a minimum semester GPA of 2.00 in addition to CUM GPA in all courses. Students with semester GPA below 2.00 in the January and August semesters are put on academic probation (Warning)."]
+      "responses": ["Once the University Senate has approved semester grades, the Student Portal is opened for students to access grades.<br>Postgraduate students must maintain a minimum CUM GPA of 3.00 throughout the student program. He/she must have achieved a final minimum GPA of 3.00 in order to begin thesis/dissertation, and graduate.<br>All degree and diploma students must maintain a minimum semester GPA of 2.00 in addition to CUM GPA in all courses. Students with semester GPA below 2.00 in the January and August semesters are put on academic probation (Warning)."]
     },
     {
       "tag": "DeferStudies",
@@ -507,14 +513,14 @@
       "context": [""]
     },
     {
-      "tag": "KabarakIntakes",
-      "patterns": ["When are the Kabarak University Intakes?","when do Kabarak university allow students to  join"],
+      "tag": "EubIntakes",
+      "patterns": ["When are the European University Intakes?","when do European university allow students to  join"],
       "responses": ["We have three intakes all year round in January, May and August."],
       "context": [""]
     },
     {
       "tag": "PsychologyCourses",
-      "patterns": ["Do you offer Psychology courses","Do you offer School Based program for Psychology Courses at Kabarak University?"],
+      "patterns": ["Do you offer Psychology courses","Do you offer School Based program for Psychology Courses at European University?"],
       "responses": ["No, currently we don’t."]
     },
     {
@@ -525,14 +531,14 @@
     {
       "tag": "FinanceOffice",
       "patterns": ["When will the finance office open?"],
-      "responses": ["The Finance Office remains open Monday to Friday from 8.00 a.m. to 5.00 p.m."],
+      "responses": ["The Finance Office remains open Tuesday – Sunday: 9:00 AM – 9:00 PM, Monday: Closed"],
       "context": [""]
     },
     {
-      "tag": "WhyKabarak",
-      "patterns": ["Why choose kabarak"],
+      "tag": "WhyEub",
+      "patterns": ["Why choose Eub","Why choose European University"],
       "responses": [
-        "Kabarak University is located 20kms north of Nakuru town, along the Nakuru-\nEldama Ravine highway. It is in a serene environment that makes it an ideal place\nfor learning. Students pursue various academic courses in Business, Theology, Science, Engineering, Technology and Education. The facility stands on a 600 acre farm"
+        "European University is located  at 2/4 Gabtoli, Mirpur, Dhaka 1216.. It is in a serene environment that makes it an ideal place<br>for learning. Students pursue various academic courses in Business, Theology, Science, Engineering, Technology and Education."
       ]
     },
     {
@@ -542,7 +548,7 @@
         "name of the VC",
         "Vice Chancellor"
       ],
-      "responses": ["Prof. Henry Kiptiony Kiplangat, PhD, MBS, OGW\nVice Chancellor, Kabarak University"]
+      "responses": ["Prof. Dr. Md. Ghulam Murtaza,PhD, Rajshahi University, Bangladesh"]
     },
     {
       "tag": "UniversityManagement",
@@ -554,74 +560,68 @@
         "Dean of students"
 
       ],
-      "responses": ["Prof. Henry Kiplangat-Vice Chancellor\nProf. John Ochola-DVC - Academic & Research\nRev. Prof Jacob Kibor-University Provost\nProf. Ronald Chepkilot-DVC Administration & Finance\nDr. Antony Somba-Registrar Academic & Research\nDr. Simon Kipchumba-Registrar Administration & Human Resource\nDr. Moses Alela-Dean of Students\nMrs. Patricia Chebet-University Librarian\nMr. Gideon Langat-Finance Manager"]
+      "responses": ["Here the list of Management <a href='https://eub.edu.bd/authorities/academic-council' target='_blank'>Academic Council</a>"]
     },
     {
       "tag": "TownCampus",
-      "patterns": ["Does Kabarak University have other campuses apart from the main Campus?"],
-      "responses": ["Yes, Nakuru Campus is located west of the Nakuru ASK Show along prison. The Campus has modern facilities which are ideal for day-scholars, part-time and evening students seeking academic and professional training during the evening and weekends."],
+      "patterns": ["Does European University have other campuses apart from the main Campus?"],
+      "responses": ["No"],
       "context": [""]
     },
     {
-      "tag": "KabarakSchools",
+      "tag": "EubMission",
       "patterns": [
-        "How many schools does kabarak have",
-        "schools at kabarak University"
+        "Whats Eub mission",
+        "European University mission"
       ],
-      "responses": [
-        "kabarak university has 7 schools:\nSchool of Business and Economics\nSchool of Education\nSchool of Law\nSchool of Medicine and Health Sciences\nSchool of Music and Performing Arts\nSchool of Pharmacy\nSchool of Science, Engineering and Technology"]
+      "responses": ["To provide inclusive, affordable, and high-quality education that empowers students to achieve their fullest potential while addressing the unique challenges of a developing nation. We are committed to:<br>1. Delivering a dynamic curriculum that blends global knowledge with local relevance, equipping graduates with the skills and mindset needed for sustainable development.<br>2. Fostering a culture of innovation, research, and entrepreneurship to drive economic progress, technological advancement, and societal transformation.<br>3. Ensuring equitable access to education for students from diverse socio-economic backgrounds, particularly those from underserved communities.<br>4. Promoting ethical leadership, critical thinking, and community engagement to create socially responsible citizens.<br>5. Embracing technology and interdisciplinary collaboration to solve pressing local and global challenges, while preserving and celebrating the cultural heritage of Bangladesh.<br>6. Through these efforts, we aim to become a beacon of hope and progress, producing graduates who are agents of change in their communities and the world."]
     },
     {
-      "tag": "KabarakMission",
+      "tag": "EubVision",
       "patterns": [
-        "Whats kabarak mission",
-        "kabarak mission"
-      ],
-      "responses": ["To provide holistic quality education based on research, practical skills and Biblical Christian Values."]
-    },
-    {
-      "tag": "KabarakVision",
-      "patterns": [
-        "whats kabarak Vision",
-        "Kabarak Vision"
+        "whats Eub Vision",
+        "European University Vision"
       ],
       "responses": [
-        "To become a centre of Academic Excellence founded on Biblical Christian Values."
+        "To become a transformative center of excellence that nurtures innovation, equity, and global relevance, empowering students to drive sustainable development, address local challenges, and contribute meaningfully to the global knowledge economy.<br><br>We envision fostering a community where access to world-class education is inclusive and affordable, bridging the gap between traditional learning and the demands of a rapidly evolving world.<br><br>Through cutting-edge research, interdisciplinary collaboration, and a deep commitment to social responsibility, we aim to produce ethically grounded, globally competent leaders and innovators who uplift their communities.<br><br>By integrating technology, entrepreneurship, and cultural heritage, the university will serve as a catalyst for economic growth, environmental stewardship, and social progress in Bangladesh and beyond."
       ]
     },
     {
       "tag": "AboutUs",
-      "patterns": ["Tell me more about kabarak"],
-      "responses": ["Kabarak University is a private Chartered institution of higher learning that provides holistic Christian-based quality education, training, research and outreach activities for the service of God and humanity.\n\nThe University was established in the year 2000 by the 2nd President of Kenya, H.E. the Late Hon. Daniel T. Arap Moi, who was also the founding Chancellor. This was as a result of his visionary idea of setting up a Christian University that would meet the demand for higher education in Kenya and offer quality education based on strong moral principles.\n\nThe Institution was granted a Letter of Interim in October 2000 and later opened doors for its first batch of students in 2002.\n\nOn 16th May 2008 the University was awarded the Charter by the Third President of the Republic of Kenya, His Excellency Mwai Kibaki, making it a fully-fledged accredited University."],
+      "patterns": ["Tell me more about European University"],
+      "responses": ["The European University of Bangladesh (EUB) is a third-generation private university committed to delivering education of European standards within Bangladesh.<br><br>Accredited by the Government of the People’s Republic of Bangladesh, its curricula and academic programs are fully approved by the University Grants Commission (UGC). Established on March 14, 2012, under the Private University Act 2010, EUB offers degree programs across diverse disciplines.<br><br>The President of the People’s Republic of Bangladesh serves as the Chancellor of the university"],
       "context": [""]
     },
     {
-      "tag": "KabarakLocation",
+      "tag": "EubLocation",
       "patterns": [
-        "Where is kabarak University Main Campus located?",
-        "where is kabarak located",
-        "how can i find kabarak",
-        "kabarak location"
+        "Where is European University Main Campus located?",
+        "where is Eub located",
+        "how can i find European University",
+        "EUB location",
+        "European University"
       ],
-      "responses": ["Kabarak University is a private Christian university in Kenya. It was established on a 600-acre farm 20 kilometres from Nakuru, along the Nakuru–Eldama Ravine. The campus features academic, religious and recreational facilities set in a serene environment.\nAddress: eldamaravine Road, Nakuru"],
+      "responses": ["<b>European University of Bangladesh (EUB)</b><br>Permanent Campus: 2/4 Gabtoli, Mirpur, Dhaka-1216, Bangladesh.<br><a href=\"https://maps.app.goo.gl/VZ5pDI3AVTcRG0sDB\" target=\"_blank\" rel=\"noopener noreferrer\">Click here to view on Google Maps</a>"],
       "context": [""]
     },
     {
-      "tag": "KabarakContacts",
+      "tag": "EubContacts",
       "patterns": [
-        "how can i contact kabarak university",
-        "Contact list of Kabarak University"],
-      "responses": ["KABARAK UNIVERSITY MAIN CAMPUS\n\nThe Vice-Chancellor\nP.O.Private Bag 20157\nKABARAK\nTel: (254) 0729 223 370\nEmail: info@kabarak.ac.ke\n\nComplaints/Compliments\nfeedback@kabarak.ac.ke\n\nAdmissions\nTel: (254) 020 211 4658\nEmail: admissions@kabarak.ac.ke\n\nRegistrar Admin & Hr\nregistrar@kabarak.ac.ke\n\nAcademic Registrar\nacademic_registrar@kabarak.ac.ke"]
+        "how can i contact European university",
+        "Contact list of European University",
+        "Contact list of Eub University"
+      ],
+      "responses": ["<b>European University of Bangladesh (EUB) Contacts:</b><br><b>General Inquiry:</b> 01968-774933, 01968-774927<br><b>Admission Office:</b> 01968-774928, 01968-774930-32<br><b>Email:</b> <a href=\"mailto:info@eub.edu.bd\">info@eub.edu.bd</a><br><b>Admission bKash:</b> 01628-747488"]
 
     },
     {
       "tag": "CoursesOnOffer",
       "patterns": [
-        "What courses are offered at Kabarak University",
+        "What courses are offered at European University",
         "what courses do you offer","what courses can i enroll to",
         "Courses on offer"
       ],
-      "responses": ["Kindly visit this link https://www.kabarak.ac.ke to see all the courses offered"],
+      "responses": ["Kindly visit this link https://www.eub.edu.bd to see all the courses offered"],
       "context": [""]
     },
     {
@@ -630,7 +630,7 @@
         "what do i need to have to be admitted",
         "what are the admission requirements"
       ],
-      "responses": ["1.Duly filled and signed application form\n2.Copies of certificates and all transcripts, Masters, Bachelors, Diplomas and Certificates.\n3.Two (2) recent passport size photographs (write your name on reverse side)\n\n4.Copy of national ID/Passport or Birth Certificate\n\n5.Application fee deposit slip: Certificate – 500, Diploma Undergraduate – Ksh 1,000; Postgraduate – Ksh 1,500\n\nNo cash payment*\n\nADDITIONAL REQUIREMENTS FOR INTERNATIONAL STUDENTS\n1. An official translation of academic records (where language of study is not English).\n2. A current financial guarantee letter.\n3. A completed immigration pass form (2 forms enclosed).\n4. Academic document equation fees.\n5. A copy of Passport.\n\nAPPLICATION FEE PAYMENT\n\nFor application fee kindly use the following channels;\n\nM-PESA PAYBILL /Business number 511480 – Enter your National ID Number or Name as account number.\nTrans National Bank, Nakuru – Account Number 0040503005"],
+      "responses": ["1.Duly filled and signed application form<br>.Copies of certificates and all transcripts, Masters, Bachelors, Diplomas and Certificates.<br>3.Two (2) recent passport size photographs (write your name on reverse side)<br>4.Copy of national ID/Passport or Birth Certificate<br>plication fee deposit slip: Certificate, Diploma Undergraduate,  Postgraduate. <br>ADDITIONAL REQUIREMENTS FOR INTERNATIONAL STUDENTS<br>1. An official translation of academic records (where language of study is not English).<br>2. A current financial guarantee letter.<br>3. A completed immigration pass form (2 forms enclosed).<br>4. Academic document equation fees.<br>5. A copy of Passport."],
       "context": [""]
     },
     {
@@ -640,7 +640,7 @@
         "what do i need to enroll for a degree",
         "what requirements must i have to pursue a degree"
       ],
-      "responses": ["All Undergraduate Courses: \n\nThe minimum entry qualifications is C+(plus) at KCSE and must meet specific program requirements.\nThose with A level qualifications must possess at least 2 principal passes and 1 subsidiary in relevant subjects"]
+      "responses": ["<b>Undergraduate Admission Eligibility (Regular & Diploma):</b><br><br><b>1. For HSC/A-Level Students:</b><br>• Minimum GPA 2.50 (or 2nd Division) in both SSC and HSC or equivalent exams.<br>• If GPA is 2.00 in one exam, the combined total must be at least GPA 6.00.<br>• For Science & Engineering: Must have a Science background in both SSC and HSC.<br>• For B. Pharm: Minimum aggregate GPA of 8.00 (out of 10) in SSC & HSC, with at least 3.50 in each.<br><br><b>2. For Diploma Holders (Engineering):</b><br>• Minimum GPA 2.50 in SSC and CGPA 2.50 in Diploma (4-year program).<br>• Diploma holders from the Technical Education Board are eligible for credit waivers (up to 19 credits for Civil, 13.5 for others).<br><br><b>3. For O-Level / A-Level Students:</b><br>• O-Levels: Minimum 5 subjects with an average grade of 'C'.<br>• A-Levels: Minimum 2 subjects with an average grade of 'D'.<br><br><b>4. Special Waiver Group:</b><br>• Children of Freedom Fighters: Combined aggregate GPA of 5.00 in SSC and HSC is sufficient for admission."]
 
     },
     {
@@ -649,7 +649,7 @@
         "What are the postgraduate requirements",
         "what requirements must i meet to pursue postgraduate studies",
         "what are the postgraduate requirements"],
-      "responses": ["Ph.D Qualifications: Be a holder of a Master’s degree\n\nMasters Qualifications: First Degree Second Class Honours (Upper Division), or Lower Division with 2 years of work experience"],
+      "responses": ["<b>Postgraduate Admission Eligibility & Requirements:</b><br><br><b>1. General Master's Programs (MA, MSS, LLM):</b><br>• A Bachelor’s degree from a recognized university with a minimum CGPA of 2.00.<br>• For LLM: Must have completed a 4-year LLB (Honors) or a 2-year LLB (Pass) with a Preliminary Master's.<br>• For MA in English: Completion of BA (Honors) in English is required.<br><br><b>2. MBA Programs (Regular & 1-Year):</b><br>• <b>Regular MBA (2-Year):</b> Open to graduates from any discipline with a minimum 3-year Bachelor’s degree.<br>• <b>MBA (1-Year):</b> Specifically for BBA graduates with a minimum CGPA of 2.50.<br><br><b>3. Executive MBA (EMBA):</b><br>• Designed for working professionals.<br>• Completion of a Bachelor’s degree in any discipline.<br>• Minimum 2 years of professional work experience at an executive level is highly preferred.<br>"],
       "context": [""]
     },
     {
@@ -657,10 +657,11 @@
       "patterns": [
         "what social amenities are available","where can one chill",
         "where can one go and get immersed",
-        "Does kabarak have a health center",
-        "Does kabarak has a student center"
+        "Does Eub have a Library",
+        "Does Eub have a Rest Room",
+        "Does Eub has a student center"
       ],
-      "responses": ["we have a Health center, Library, Student center, Auditorium, Chapel"
+      "responses": ["we have a Male & Female Rest Room, Library,Auditorium"
       ]
     },
     {
@@ -682,18 +683,24 @@
       ]
     },
     {
-      "tag": "rahat",
+      "tag": "myname",
       "patterns": [
         "who is rahat",
         "who rahat",
-        "about rahat",
-        "rahat"
+        "about rahat"
       ],
       "responses": [
         "EUB Student",
         "Developer this chat bot",
         "cse student"
       ]
+    },
+    {
+      "tag": "test",
+      "patterns": [
+        "test chat"],
+      "responses": ["You can visit us at <a href='https://eub.edu.bd'>eub.edu.bd</a>"],
+      "context": [""]
     }
   ]
 }
